@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<head>
+    <title>Note CSS Examples</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
+    <link rel="stylesheet" href="css/note.css">    
+    <style type="text/css">
+      body{
+        font: 300 21px Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #ddd;
+        background-color: #333;
+        -webkit-box-shadow: inset 0 3px 30px rgba(0,0,0,0.3);
+        -moz-box-shadow: inset 0 3px 30px rgba(0,0,0,0.3);
+        box-shadow: inset 0 3px 30px rgba(0,0,0,0.3);
+        text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      }
+
+      .note h5 {
+        line-height: 1.5em;
+        font-weight: 900;
+        font-size: 1em;
+        font-style: normal;
+        margin: 0;
+        color: #fff;
+      }
+
+      div{
+        margin-top: 20px;
+        margin-left: -9px;
+      }
+
+      #container{
+        background-color: #444;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+      }
+      div .rect, .circle{
+        margin: 10px 0px;
+      }
+    </style>
+  </head>
+	<body>
+    <div id="container">
+  	  <div class="note">
+        <h5>Note的默认样式</h5>
+        <p>这是的Note的默认样式.</p>
+      </div>
+      <div class="note warning">
+        <h5>Note的警告样式</h5>
+        <p>这是Note的警告样式.</p>
+      </div>
+      <div class="note info">
+        <h5>Note的信息样式</h5>
+        <p>这是Note的信息样式.</p>
+      </div>
+      <div class="note issue">
+        <h5>Note的问题样式</h5>
+        <p>这是Note的问题样式.</p>
+      </div>
+
+      <div class="note circle">
+        <h5> 圆角Note的默认样式</h5>
+        <p>这是的Note的默认样式.</p>
+      </div>
+      <div class="note warning circle">
+        <h5>圆角Note的警告样式</h5>
+        <p>这是圆角Note的警告样式.</p>
+      </div>
+      <div class="note info circle">
+        <h5>圆角Note的信息样式</h5>
+        <p>这是圆角Note的信息样式.</p>
+      </div>
+      <div class="note issue circle">
+        <h5>圆角Note的问题样式</h5>
+        <p>这是圆角Note的问题样式.</p>
+      </div>
+
+
+      <div class="note rect">
+        <h5>直角Note的默认样式</h5>
+        <p>这是直角Note的默认样式.</p>
+      </div>
+      <div class="note warning rect">
+        <h5>直角Note的警告样式</h5>
+        <p>这是直角Note的警告样式.</p>
+      </div>
+      <div class="note info rect">
+        <h5>直角Note的信息样式</h5>
+        <p>这是直角Note的信息样式.</p>
+      </div>
+      <div class="note issue rect">
+        <h5>直角Note的问题样式</h5>
+        <p>这是直角Note的问题样式.</p>
+      </div>
+    </div>
+	</body>
+</html>
