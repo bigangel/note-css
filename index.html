@@ -1,90 +1,77 @@
----
-layout: default
-title: Jekyll &bull; Simple, blog-aware, static sites
-overview: true
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Note-css by bigangel</title>
 
-<section class="intro">
-  <div class="grid">
-    <div class="unit whole center-on-mobiles">
-      <p class="first">Transform your plain text into static&nbsp;websites and&nbsp;blogs.</p>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Note-css</h1>
+        <p>一个专门为Note而生的、极其简单的CSS样式</p>
+
+        <p class="view"><a href="https://github.com/bigangel/note-css">View the Project on GitHub <small>bigangel/note-css</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/bigangel/note-css/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/bigangel/note-css/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/bigangel/note-css">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="note-css" class="anchor" href="#note-css" aria-hidden="true"><span class="octicon octicon-link"></span></a>note-css</h1>
+
+<p>一个专门为Note而生的、极其简单的CSS样式。具体样式可看下面的例子。</p>
+
+<h2>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<h4>
+<a id="example-1" class="anchor" href="#example-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example 1:</h4>
+
+<p><img src="/images/example1.jpg" alt="Example1"></p>
+
+<h4>
+<a id="example-2" class="anchor" href="#example-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example 2:</h4>
+
+<p><img src="/images/example2.jpg" alt="Example2"></p>
+
+<h2>
+<a id="贡献" class="anchor" href="#%E8%B4%A1%E7%8C%AE" aria-hidden="true"><span class="octicon octicon-link"></span></a>贡献</h2>
+
+<p>如果您发现bugs或者有好的提议，可以提交issues或留言给我们。你可以fork我们的代码，并提交pull request，和我们一起完善这个小工具。</p>
+
+<h2>
+<a id="计划" class="anchor" href="#%E8%AE%A1%E5%88%92" aria-hidden="true"><span class="octicon octicon-link"></span></a>计划</h2>
+
+<ol>
+<li>加入控制尺寸大小的样式</li>
+<li>加入其它常见的Note样式</li>
+<li>加入对Mobile端的兼容性</li>
+<li>采用Grunt build我们的代码</li>
+</ol>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>您可以随便在您的代码中使用我们的Note.css或者修改之后再发布。我们遵循Gun Gplv3开源协议。</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/bigangel">bigangel</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-  </div>
-</section>
-<section class="features">
-  <div class="grid">
-    <div class="unit one-third">
-      <h2>Simple</h2>
-      <p>
-        No more databases, comment moderation, or pesky updates to install—just <em>your content</em>.
-      </p>
-      <a href="/docs/usage/">How Jekyll works &rarr;</a>
-    </div>
-    <div class="unit one-third">
-      <h2>Static</h2>
-      <p><a href="http://daringfireball.net/projects/markdown/">Markdown</a> (or <a href="http://redcloth.org/textile">Textile</a>), <a href="https://github.com/Shopify/liquid/wiki">Liquid</a>, HTML <span class="amp">&amp;</span> CSS go in. Static sites come out ready for deployment.</p>
-      <a href="/docs/templates/">Jekyll template guide &rarr;</a>
-    </div>
-    <div class="unit one-third">
-      <h2>Blog-aware</h2>
-      <p>
-        Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
-      </p>
-      <a href="/docs/migrations/">Migrate your blog &rarr;</a>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section class="quickstart">
-  <div class="grid">
-    <div class="unit golden-small center-on-mobiles">
-      <h4>Get up and running <em>in&nbsp;seconds</em>.</h4>
-    </div>
-    <div class="unit golden-large code">
-      <p class="title">Quick-start Instructions</p>
-      <div class="shell">
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">gem install jekyll</span>
-        </p>
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">jekyll new my-awesome-site</span>
-        </p>
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">cd my-awesome-site</span>
-        </p>
-        <p class="line">
-          <span class="path">~/my-awesome-site</span>
-          <span class="prompt">$</span>
-          <span class="command">jekyll serve</span>
-        </p>
-        <p class="line">
-          <span class="output"># => Now browse to http://localhost:4000</span>
-        </p>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section class="free-hosting">
-  <div class="grid">
-    <div class="unit whole">
-      <div class="grid pane">
-        <div class="unit whole center-on-mobiles">
-          <img src="img/octojekyll.png" width="300" height="251" alt="Free Jekyll hosting on GitHub Pages">
-          <div class="pane-content">
-            <h2 class="center-on-mobiles"><strong>Free hosting</strong> with GitHub Pages</h2>
-            <p>Sick of dealing with hosting companies? <a href="http://pages.github.com/">GitHub Pages</a> are <em>powered by Jekyll</em>, so you can easily deploy your site using GitHub for free&mdash;<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">custom domain name</a> and&nbsp;all.</p>
-            <a href="http://pages.github.com/">Learn more about GitHub Pages &rarr;</a>
-          </div>
-        </div>
-        <div class="clear"></div>
-      </div>
-    </div>
-  </div>
-</section>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
